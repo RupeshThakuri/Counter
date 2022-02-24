@@ -1,0 +1,30 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.counter-elements h2 {
+    font-size: 2em;
+}
+
+.counter-elements h1 {
+    font-size: 3em;
+}
+
+.buttons button {
+    border-radius: 6px;
+    background-color: antiquewhite;
+    height: 30px;
+    width: 110px;
+    margin-left: 5px;
+}
